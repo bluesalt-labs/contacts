@@ -1,17 +1,132 @@
 [
-    {
-        "id": 1,
-        "first_name": "Luke",
-        "last_name": "Sontrop"
-    },
-    {
-        "id": 2,
-        "first_name": "Jane",
-        "last_name": "Doe"
-    },
-    {
-        "id": 3,
-        "first_name": "John",
-        "last_name": "Doe"
-    }
+  {
+      "id": 0,
+      "avatar": "https://loremfaces.net/96/id/1.jpg",
+      "first_name": "Luke",
+      "last_name": "Sontrop",
+      "surname": null,
+      "username": "lukerz8",
+      "email": "",
+      "phone": "",
+      "created_at": "2025-01-01 20:39:02",
+      "updated_at": "2025-01-01 20:39:02",
+      "deleted_at": null
+  },
+  {
+      "id": 2,
+      "avatar": "https://loremfaces.net/96/id/2.jpg",
+      "first_name": "Jane",
+      "last_name": "Moore",
+      "surname": null,
+      "username": "pixelfreak",
+      "email": "queenbee@mailbox.co",
+      "phone": "+1-654-8010353",
+      "created_at": "2024-01-10 04:42:46",
+      "updated_at": "2024-01-10 04:42:46",
+      "deleted_at": null
+  },
+  {
+      "id": 3,
+      "avatar": "https://loremfaces.net/96/id/3.jpg",
+      "first_name": "Morgan",
+      "last_name": "Miller",
+      "surname": null,
+      "username": "fastcoder",
+      "email": "nightrider@mailbox.co",
+      "phone": "+1-789-4721250",
+      "created_at": "2024-05-17 04:42:46",
+      "updated_at": "2024-05-17 04:42:46",
+      "deleted_at": null
+  },
+  {
+      "id": 4,
+      "avatar": "https://loremfaces.net/96/id/4.jpg",
+      "first_name": "Sam",
+      "last_name": "Moore",
+      "surname": null,
+      "username": "stargazer",
+      "email": "skyhigh@example.com",
+      "phone": "+1-654-2690622",
+      "created_at": "2024-03-11 04:42:46",
+      "updated_at": "2024-03-11 04:42:46",
+      "deleted_at": null
+  },
+  {
+      "id": 5,
+      "avatar": "https://loremfaces.net/96/id/5.jpg",
+      "first_name": "Pat",
+      "last_name": "Wilson",
+      "surname": null,
+      "username": "stargazer",
+      "email": "nightrider@email.net",
+      "phone": "+1-654-5768733",
+      "created_at": "2024-04-09 04:42:46",
+      "updated_at": "2024-04-09 04:42:46",
+      "deleted_at": null
+  },
+  {
+      "id": 6,
+      "avatar": "https://loremfaces.net/96/id/6.jpg",
+      "first_name": "Alex",
+      "last_name": "Wilson",
+      "surname": null,
+      "username": "fastcoder",
+      "email": "nightrider@example.com",
+      "phone": "+1-789-7128298",
+      "created_at": "2024-10-19 04:42:46",
+      "updated_at": "2024-10-19 04:42:46",
+      "deleted_at": null
+  },
+  {
+      "id": 7,
+      "avatar": "https://loremfaces.net/96/id/7.jpg",
+      "first_name": "Jane",
+      "last_name": "Davis",
+      "surname": null,
+      "username": "nightrider",
+      "email": "pixelfreak@mailbox.co",
+      "phone": "+1-789-9081198",
+      "created_at": "2024-06-03 04:42:46",
+      "updated_at": "2024-06-03 04:42:46",
+      "deleted_at": null
+  },
+  {
+      "id": 8,
+      "avatar": "https://loremfaces.net/96/id/8.jpg",
+      "first_name": "Pat",
+      "last_name": "Johnson",
+      "surname": null,
+      "username": "skyhigh",
+      "email": "coderlife@example.com",
+      "phone": "+1-321-2599376",
+      "created_at": "2024-06-16 04:42:46",
+      "updated_at": "2024-06-16 04:42:46",
+      "deleted_at": null
+  },
+  {
+      "id": 9,
+      "avatar": "https://loremfaces.net/96/id/9.jpg",
+      "first_name": "Morgan",
+      "last_name": "Taylor",
+      "surname": null,
+      "username": "fastcoder",
+      "email": "fastcoder@webapp.org",
+      "phone": "+1-789-7925515",
+      "created_at": "2024-08-23 04:42:46",
+      "updated_at": "2024-08-23 04:42:46",
+      "deleted_at": null
+  },
+  {
+      "id": 10,
+      "avatar": "https://loremfaces.net/96/id/10.jpg",
+      "first_name": "Sam",
+      "last_name": "Johnson",
+      "surname": null,
+      "username": "user123",
+      "email": "stargazer@testmail.com",
+      "phone": "+1-654-5992125",
+      "created_at": "2024-02-03 04:42:46",
+      "updated_at": "2024-02-03 04:42:46",
+      "deleted_at": null
+  }
 ]
