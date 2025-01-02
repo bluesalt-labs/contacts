@@ -1,5 +1,5 @@
-import Layout from "../../shared/templates/Layout"
-import ModelList from "../../shared/components/ModelList/ModelList"
+import Layout from "../../templates/Layout"
+import ModelList from "../../components/ModelList/ModelList"
 
 import './PeopleApp.css'
 

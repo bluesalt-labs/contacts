@@ -1,4 +1,4 @@
-import Layout from "../../shared/templates/Layout";
+import Layout from "../../templates/Layout";
 
 function MainApp() {
   return (
