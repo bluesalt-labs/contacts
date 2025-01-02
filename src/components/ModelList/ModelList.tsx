@@ -6,17 +6,29 @@ import './ModelList.css'
 //};
 
 //const ModelList: React.FC<ModelListProps> = (props) => {
-function ModelList(props) {
+function ModelList({ models }) {
 
     return (
-        <>
-            <div style={{ textAlign: "left" }}>
-            <code><pre>
-            { JSON.stringify(props, null, 2) }
-            </pre></code>
-            </div>
-        </>
+      <>
+      {(models ?? []).map((model, key) =>
+        <ModelListItem model={model} key={key} />
+      )}
+      </>
     )
 }
 
 export default ModelList
+
+function ModelListItem({ model }) {
+
+  return (
+    <>
+      <div style={{ textAlign: "left" }}>
+      <code><pre>
+      { JSON.stringify(model, null, 2) }
+      </pre></code>
+      </div>
+
+    </>
+  )
+}
