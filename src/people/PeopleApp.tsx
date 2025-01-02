@@ -1,13 +1,16 @@
-import Layout from "../shared/templates/Layout";
+import Layout from "../shared/templates/Layout"
+import ModelList from "../shared/components/ModelList/ModelList"
+
 import './PeopleApp.css'
 
+import people from '../data/people.json'
+
 function PeopleApp() {
+
   return (
     <Layout title="People">
-      <div>Here be peopley content</div>
-      {/* todo: is there a way to store these routes in one place so I don't have to hard code them? */}
-      <h2>Welcome to the people page</h2>
-      <a href="/">Home</a>
+        <span>Stuff and things</span>
+        <ModelList models={people} />
     </Layout>
   )
 }

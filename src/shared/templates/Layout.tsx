@@ -1,5 +1,5 @@
-import React from 'react';
-import './Layout.css';
+import React from 'react'
+import './Layout.css'
 
 type LayoutProps = {
   children?: React.ReactNode;
@@ -13,8 +13,10 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => {
 
     {/* todo: is there a way to store these routes in one place so I don't have to hard code them? */}
       <div className="card">
+        <a href="/">Home</a>
+        |
         <a href="/about/">About</a>
-        <br />
+        |
         <a href="/people/">People</a>
         <br />
       </div>
