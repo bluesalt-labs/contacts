@@ -1,7 +1,4 @@
 
-import './ModelShow.css'
-
-
 function ModelShow({ model }) {
 
   return (

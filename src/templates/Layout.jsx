@@ -1,12 +1,11 @@
 import { Link } from 'react-router'
-//import './Layout.css'
 
 // todo: add a header and footer element to this page.
 // todo: update the title so it's closer to the header and not in the middle of the page.
 //
 function Layout({ children, title }) {
   return (
-    <>
+    <main className="container mx-auto">
       {!title ? null : <h1>{title}</h1>}
 
       {/* todo: is there a way to store these routes in one place so I don't have to hard-code them? */}
@@ -23,7 +22,7 @@ function Layout({ children, title }) {
           {children}
         </div>
       }
-    </>
+    </main>
   )
 }
 
