@@ -1,4 +1,5 @@
 //import React from 'react'
+import { Link } from 'react-router'
 import './ModelList.css'
 
 //type ModelListProps = {
@@ -25,27 +26,21 @@ function ModelListItem({ model }) {
   const title = `${model.first_name} ${model.last_name}`
   const subtitle = `${model.email} | ${model.phone}`
 
-  const goToProfile = () => {
-    window.location.href =`/people/${model.id}/`
-  }
-
-
   return (
-    <div className="model-list-container" onClick={goToProfile}>
-      <div style={{ display: "flex" }}>
+    <div className="model-list-container">
+      <Link to={`/contacts/people/${model.id}`}>
+        <img src={imageUrl} alt={`${title} avatar`} />
+        <br />
+        <span>{title}</span>
+        <br />
+        <span>{subtitle}</span>
 
-      </div>
+        {/* <code><pre>
+          { JSON.stringify(model, null, 2) }
+        </pre></code>
+          */}
+      </Link>
 
-      <img src={imageUrl} alt={`${title} avatar`} />
-      <br />
-      <span>{title}</span>
-      <br />
-      <span>{subtitle}</span>
-
-      {/* <code><pre>
-        { JSON.stringify(model, null, 2) }
-      </pre></code>
-        */}
     </div>
   )
 }
