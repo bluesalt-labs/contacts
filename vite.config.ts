@@ -8,7 +8,7 @@ const outDir = resolve(__dirname, 'dist')
 // https://vite.dev/config/
 export default defineConfig({
   root,
-  base: '/',
+  base: '/contacts/',
   plugins: [react()],
   build: {
     outDir,
