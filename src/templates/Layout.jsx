@@ -11,11 +11,11 @@ function Layout({ children, title }) {
 
       {/* todo: is there a way to store these routes in one place so I don't have to hard-code them? */}
       <div className="card">
-        <Link to="/contacts/">Home</Link>
+        <Link to="/">Home</Link>
         |
-        <Link to="/contacts/about">About</Link>
+        <Link to="/about">About</Link>
         |
-        <Link to="/contacts/people">People</Link>
+        <Link to="/people">People</Link>
         <br />
       </div>
       {!children ? null :

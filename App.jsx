@@ -1,4 +1,4 @@
-import { useParams, BrowserRouter, Routes, Route } from 'react-router'
+import { useParams, HashRouter, Routes, Route } from 'react-router'
 import Layout from './src/templates/Layout'
 import ModelList from './src/components/ModelList/ModelList'
 import ModelShow from './src/components/ModelShow/ModelShow'
@@ -55,18 +55,16 @@ const PersonShowPage = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="contacts">
-          <Route index element={<IndexPage />} />
-          <Route path="about" element={<AboutPage />} />
-          <Route path="people">
-            <Route index element={<PeopleListPage />} />
-            <Route path=":id" element={<PersonShowPage />} />
-          </Route>
+        <Route index element={<IndexPage />} />
+        <Route path="about" element={<AboutPage />} />
+        <Route path="people">
+          <Route index element={<PeopleListPage />} />
+          <Route path=":id" element={<PersonShowPage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
