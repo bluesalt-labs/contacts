@@ -9,7 +9,6 @@ function PeopleApp() {
 
   return (
     <Layout title="People">
-        <span>Stuff and things</span>
         <ModelList models={people} />
     </Layout>
   )

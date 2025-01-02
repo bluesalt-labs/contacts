@@ -24,11 +24,10 @@ function ModelListItem({ model }) {
   return (
     <>
       <div style={{ textAlign: "left" }}>
-      <code><pre>
-      { JSON.stringify(model, null, 2) }
-      </pre></code>
+        <code><pre>
+          { JSON.stringify(model, null, 2) }
+        </pre></code>
       </div>
-
     </>
   )
 }

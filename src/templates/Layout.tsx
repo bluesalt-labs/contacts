@@ -6,6 +6,9 @@ type LayoutProps = {
   title?: string;
 };
 
+// todo: add a header and footer element to this page.
+// todo: update the title so it's closer to the header and not in the middle of the page.
+//
 const Layout: React.FC<LayoutProps> = ({ children, title }) => {
   return (
     <>
