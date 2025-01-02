@@ -12,8 +12,8 @@ function PeopleApp() {
   return (
     <Layout title="People">
       <Routes>
-          <Route path="/people.html" element={<ModelList models={people} />} />
-          {/* <Route path="/people/:id" element={<ModelShow />} /> */}
+          <Route path="/contacts/people.html" element={<ModelList models={people} />} />
+          {/* <Route path="/contacts/people/:id" element={<ModelShow />} /> */}
       </Routes>
     </Layout>
   )
