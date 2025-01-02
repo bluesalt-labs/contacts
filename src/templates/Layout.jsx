@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router'
 //import './Layout.css'
 
 // todo: add a header and footer element to this page.
@@ -9,13 +9,13 @@ function Layout({ children, title }) {
     <>
       {!title ? null : <h1>{title}</h1>}
 
-      {/* todo: is there a way to store these routes in one place so I don't have to hard code them? */}
+      {/* todo: is there a way to store these routes in one place so I don't have to hard-code them? */}
       <div className="card">
-        <a href="/contacts/">Home</a>
+        <Link to="/">Home</Link>
         |
-        <a href="/contacts/about.html">About</a>
+        <Link to="/about">About</Link>
         |
-        <a href="/contacts/people.html">People</a>
+        <Link to="/people">People</Link>
         <br />
       </div>
       {!children ? null :
