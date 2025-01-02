@@ -1,15 +1,10 @@
 import React from 'react'
 import './Layout.css'
 
-type LayoutProps = {
-  children?: React.ReactNode;
-  title?: string;
-};
-
 // todo: add a header and footer element to this page.
 // todo: update the title so it's closer to the header and not in the middle of the page.
 //
-const Layout: React.FC<LayoutProps> = ({ children, title }) => {
+function Layout({ children, title }) {
   return (
     <>
       {!title ? null : <h1>{title}</h1>}
