@@ -1,9 +1,9 @@
-import Layout from "../shared/templates/Layout"
-import ModelList from "../shared/components/ModelList/ModelList"
+import Layout from "../../shared/templates/Layout"
+import ModelList from "../../shared/components/ModelList/ModelList"
 
 import './PeopleApp.css'
 
-import people from '../data/people.json'
+import people from '../../data/people.json'
 
 function PeopleApp() {
 

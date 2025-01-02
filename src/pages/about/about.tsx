@@ -1,10 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import '../index.css'
-import PeopleApp from './PeopleApp'
+import AboutApp from './AboutApp'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-      <PeopleApp />
+      <AboutApp />
   </StrictMode>,
 )

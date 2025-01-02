@@ -11,7 +11,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => {
     <>
       {!title ? null : <h1>{title}</h1>}
 
-    {/* todo: is there a way to store these routes in one place so I don't have to hard code them? */}
+      {/* todo: is there a way to store these routes in one place so I don't have to hard code them? */}
       <div className="card">
         <a href="/">Home</a>
         |
