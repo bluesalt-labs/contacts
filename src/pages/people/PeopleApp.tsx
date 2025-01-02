@@ -1,5 +1,7 @@
+import { Routes, Route } from "react-router";
 import Layout from "../../templates/Layout"
 import ModelList from "../../components/ModelList/ModelList"
+//import ModelShow from "../../components/ModelShow/ModelShow"
 
 import './PeopleApp.css'
 
@@ -9,7 +11,10 @@ function PeopleApp() {
 
   return (
     <Layout title="People">
-        <ModelList models={people} />
+      <Routes>
+          <Route path="/people.html" element={<ModelList models={people} />} />
+          {/* <Route path="/people/:id" element={<ModelShow />} /> */}
+      </Routes>
     </Layout>
   )
 }
