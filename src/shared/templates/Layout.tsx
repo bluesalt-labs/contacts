@@ -15,9 +15,9 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => {
       <div className="card">
         <a href="/">Home</a>
         |
-        <a href="/about/">About</a>
+        <a href="/about.html">About</a>
         |
-        <a href="/people/">People</a>
+        <a href="/people.html">People</a>
         <br />
       </div>
       {!children ? null :
