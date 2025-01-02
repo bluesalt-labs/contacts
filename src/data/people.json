@@ -1,20 +1,20 @@
 [
   {
-      "id": 0,
-      "avatar": "https://loremfaces.net/96/id/1.jpg",
-      "first_name": "Luke",
-      "last_name": "Sontrop",
+      "id": 1,
+      "avatar": "https://loremfaces.net/96/id/2.jpg",
+      "first_name": "John",
+      "last_name": "Doe",
       "surname": null,
-      "username": "lukerz8",
-      "email": "",
-      "phone": "",
+      "username": "jdoe",
+      "email": "john@doe.com",
+      "phone": "+1-123-4567890",
       "created_at": "2025-01-01 20:39:02",
       "updated_at": "2025-01-01 20:39:02",
       "deleted_at": null
   },
   {
       "id": 2,
-      "avatar": "https://loremfaces.net/96/id/2.jpg",
+      "avatar": "https://loremfaces.net/96/id/1.jpg",
       "first_name": "Jane",
       "last_name": "Moore",
       "surname": null,
@@ -66,7 +66,7 @@
   },
   {
       "id": 6,
-      "avatar": "https://loremfaces.net/96/id/6.jpg",
+      "avatar": "https://loremfaces.net/96/id/1.jpg",
       "first_name": "Alex",
       "last_name": "Wilson",
       "surname": null,
@@ -79,7 +79,7 @@
   },
   {
       "id": 7,
-      "avatar": "https://loremfaces.net/96/id/7.jpg",
+      "avatar": "https://loremfaces.net/96/id/2.jpg",
       "first_name": "Jane",
       "last_name": "Davis",
       "surname": null,
@@ -92,7 +92,7 @@
   },
   {
       "id": 8,
-      "avatar": "https://loremfaces.net/96/id/8.jpg",
+      "avatar": "https://loremfaces.net/96/id/3.jpg",
       "first_name": "Pat",
       "last_name": "Johnson",
       "surname": null,
@@ -105,7 +105,7 @@
   },
   {
       "id": 9,
-      "avatar": "https://loremfaces.net/96/id/9.jpg",
+      "avatar": "https://loremfaces.net/96/id/4.jpg",
       "first_name": "Morgan",
       "last_name": "Taylor",
       "surname": null,
@@ -118,7 +118,7 @@
   },
   {
       "id": 10,
-      "avatar": "https://loremfaces.net/96/id/10.jpg",
+      "avatar": "https://loremfaces.net/96/id/5.jpg",
       "first_name": "Sam",
       "last_name": "Johnson",
       "surname": null,
