@@ -19,17 +19,6 @@ function ModelList({ models }) {
 
 export default ModelList
 
-
-const modelListContainerStyle = {
-  textAlign: "left",
-  border: "2px solid #4A006A",
-  background: "rgba(200, 0, 220, 0.25)",
-  padding: "6px 12px",
-  marginTop: "12px",
-  marginBottom: "12px",
-  cursor: "pointer"
-}
-
 function ModelListItem({ model }) {
   const imageUrl = `${model.avatar}`
 
@@ -42,7 +31,7 @@ function ModelListItem({ model }) {
 
 
   return (
-    <div style={modelListContainerStyle} onClick={goToProfile}>
+    <div className="model-list-container" onClick={goToProfile}>
       <div style={{ display: "flex" }}>
 
       </div>
