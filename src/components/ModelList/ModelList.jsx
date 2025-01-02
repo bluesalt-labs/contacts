@@ -28,7 +28,7 @@ function ModelListItem({ model }) {
 
   return (
     <div className="model-list-container">
-      <Link to={`/contacts/people/${model.id}`}>
+      <Link to={`${model.id}`}>
         <img src={imageUrl} alt={`${title} avatar`} />
         <br />
         <span>{title}</span>
