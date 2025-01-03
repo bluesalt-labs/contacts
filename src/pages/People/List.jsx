@@ -1,18 +1,27 @@
+import React, { useContext } from 'react'
 import Layout from '../../templates/Layout'
 import ModelList from '../../components/ModelList'
 
-// todo: don't retrieve this directly.
-import people from '../../data/people.json'
+import { PeopleContext, PeopleProvider } from '../../contexts/PeopleContext'
 
-const PeopleListPage = () => {
+const ListPageContent = () => {
+  const { people } = useContext(PeopleContext)
+
   return (
-    <Layout title="People">
-      <h2>Welcome to the People list page</h2>
-      <hr />
-      <div>
-        <ModelList models={people} />
-      </div>
-    </Layout>
+    <>
+      <ModelList models={people ?? []} />
+    </>
+  )
+}
+
+function PeopleListPage() {
+
+  return (
+    <PeopleProvider>
+      <Layout title="People">
+        <ListPageContent />
+      </Layout>
+    </PeopleProvider>
   )
 }
 
